@@ -1,0 +1,176 @@
+/***** BASE STYLES *****/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#about, #skills, #work, #contact {
+    height: 600px;
+}
+
+/***** GRID *****/
+
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    float: left;
+}
+/***** HEADER *****/
+header {
+    height: 800px;
+    background: url("../img/full-background.jpg") no-repeat fixed center;
+    background-size: cover;
+}
+header h1 {
+    padding: 30px 0;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    color: #9e7fb2;
+}
+nav {
+    float: right;
+    padding-top: 120px;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    color: #C48EB5;
+    padding-left: 20px;
+}
+header h2 {
+    width: 1000px;
+    clear: both;
+    font-family: 'Roboto', sans-serif;
+    font-size: 72px;
+    line-height: 80px;
+    color: #C8CEC2;
+    padding: 20px 0;
+}
+header h2 span {
+    color: #2b2b2b;
+}
+
+/***** ABOUT SECTION *****/
+
+#about .full-width {
+    padding: 80px 0;
+}
+
+#about h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+}
+#about img {
+    padding-left: 100px;
+}
+
+#about p {
+    font-size: 21px;
+    color: #7f7f7f;
+    line-height: 40px;
+    padding-right: 50px;
+}
+/***** SKILLS SECTION *****/
+
+#skills {
+    text-align: center;
+}
+
+#skills .full-width {
+   padding: 60px 0;
+}
+
+#skills img {
+    padding-bottom: 30px;
+}
+
+#skills h2 {
+    font-size: 30px;
+    text-align: left;
+    padding: 0 70px;
+}
+#skills h3 {
+    font-size: 25px;
+}
+
+#skills p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+
+/***** WORK SECTION *****/
+
+#work {
+    background-color: #ebebeb;
+    text-align: center;
+}
+
+#work .full-width {
+    padding: 60px 0;
+}
+
+#work img {
+    padding-bottom: 30px;
+}
+
+#work h2 {
+    font-size: 30px;
+    text-align: left;
+    padding: 0 70px;
+}
+
+#work h3 {
+    font-size: 25px;
+}
+
+#work p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0 35px;
+}
+
+/***** CONTACT SECTION *****/
+
+#contact .full-width {
+    padding: 110px 0;
+}
+#contact-img {
+    border: 12px solid #ffffff;
+}
+#contact h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+#contact a {
+    text-decoration: none;
+    color: #9e7fb2;
+    font-weight: bold;
+    font-size: 40px;
+}
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 50px;
+    padding-right: 40px;
+}
